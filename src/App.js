@@ -5,8 +5,8 @@ import BottomRow from "./BottomRow";
 
 function App() {
   //TODO: STEP 2 - Establish your applictaion's state with some useState hooks.  You'll need one for the home score and another for the away score.
-  const [scoreHome, setScoreHome] = useState(32);
-  const [scoreAway, setScoreAway] = useState(32);
+  const [scoreHome, setScoreHome] = useState(0);
+  const [scoreAway, setScoreAway] = useState(0);
   
   return (
     <div className="container">
@@ -30,12 +30,12 @@ function App() {
       <section className="buttons">
         <div className="homeButtons">
           {/* TODO STEP 4 - Now we need to attach our state setter functions to click listeners. */}
-          <button onClick={ () => setScoreHome(scoreHome + 6)} className="homeButtons__touchdown">Home Touchdown</button>
-          <button onClick={ () => setScoreHome(scoreHome + 2)} className="homeButtons__fieldGoal">Home Field Goal</button>
+          <button onClick={ () => setScoreHome(scoreHome + 7)} className="homeButtons__touchdown">Home Touchdown</button>
+          <button onClick={ () => setScoreHome(scoreHome + 3)} className="homeButtons__fieldGoal">Home Field Goal</button>
         </div>
         <div className="awayButtons">
-          <button onClick={ () => setScoreAway(scoreAway + 6)} className="awayButtons__touchdown">Away Touchdown</button>
-          <button onClick={ () => setScoreAway(scoreAway + 2)} className="awayButtons__fieldGoal">Away Field Goal</button>
+          <button onClick={ () => setScoreAway(scoreAway + 7)} className="awayButtons__touchdown">Away Touchdown</button>
+          <button onClick={ () => setScoreAway(scoreAway + 3)} className="awayButtons__fieldGoal">Away Field Goal</button>
         </div>
       </section>
     </div>
