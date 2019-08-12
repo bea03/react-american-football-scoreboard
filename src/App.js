@@ -56,8 +56,8 @@ function App() {
         <div className="awayButtons">
           {/*<button onClick={() => setScoreAway(scoreAway + 10)} className="awayButtons__touchdown">Goal</button>
           <button onClick={() => setScoreAway(scoreAway + 150)} className="awayButtons__fieldGoal">Golden Snitch</button>*/}
-          <button onClick={() => handleScore('Away', 10)} className="homeButtons__touchdown">Goal</button>
-          <button onClick={() => handleScore('Away', 150)} className="homeButtons__fieldGoal">Golden Snitch</button>
+          <button onClick={() => handleScore('Away', 10)} className="awayButtons__touchdown">Goal</button>
+          <button onClick={() => handleScore('Away', 150)} className="awayButtons__fieldGoal">Golden Snitch</button>
         </div>
         <button onClick={handleReset} className="resetButton">Reset</button>
       </section>
