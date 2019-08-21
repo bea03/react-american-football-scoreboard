@@ -16,24 +16,24 @@ In this project, you build an app that diplays a scoreboard for an american foot
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] CD into the project base directory `cd american-football-scoreboard`
-- [ ] Download project dependencies by running one of these two commands `yarn` or `npm install`
+- [x] Create a forked copy of this project.
+- [x] Add your team lead as collaborator on Github.
+- [x] Clone your OWN version of the repository in your terminal
+- [x] CD into the project base directory `cd american-football-scoreboard`
+- [x] Download project dependencies by running one of these two commands `yarn` or `npm install`
 - [ ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master.
-- [ ] Do your magic!
+- x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
+- [x] Add your team lead as a reviewer on the pull-request
+- [x] Your team lead will count the project as complete by merging the branch back into master.
+- [x] Do your magic!
 
-## Minimum Viable Product
+## Minimum Viable Product = Completed
 
 1. Hold each team's current score in a state value
 1. Render each team's current score that is in state to the DOM.
@@ -69,7 +69,7 @@ const [value, setValue] = useState(); // Give these better names, and decide whe
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
 - Break out parts of this component into smaller components and compose multiple components together to make the UI
-- Write a "handler" function in the component that takes in a team name and an amount. This function will then be passed to each button's click handler. It will increment the correct team's score by the passed in amount
-- Play around with the styling and make this project your own! Maybe make it a soccer (non-american football) scoreboard, or a rugby or baseball scoreboard
+X Write a "handler" function in the component that takes in a team name and an amount. This function will then be passed to each button's click handler. It will increment the correct team's score by the passed in amount **createed two event handlers**
+X Play around with the styling and make this project your own! Maybe make it a soccer (non-american football) scoreboard, or a rugby or baseball scoreboard **Made it a Quidditch Scoreboard with CSS changes**
 - Add a button that changes which quarter the game is in, and then render the state quarter value on the scoreboard
 - Make the entire board fully functional with buttons and state! (If you want to make a timer, you'll have to look into useEffect)

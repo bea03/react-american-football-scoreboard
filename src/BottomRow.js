@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-const BottomRow = () => {
+/*const BottomRow = () => {
   return (
     <div className="bottomRow">
       <div className="down">
@@ -24,4 +24,4 @@ const BottomRow = () => {
   );
 };
 
-export default BottomRow;
+export default BottomRow;*/
